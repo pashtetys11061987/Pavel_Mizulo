@@ -1,1 +1,10 @@
+class ExpressionValue { 
+    public static void main(String[] args){
 
+        int a=1;
+        int b=2;
+        int c=3;
+        double z=(b+Math.sqrt(Math.pow(b, 2)+4*a*c))/(2*c)-Math.pow(a, 3)*c+Math.pow(b, -2);
+        System.out.println("Value of expression is  "+z); 
+    } 
+}
