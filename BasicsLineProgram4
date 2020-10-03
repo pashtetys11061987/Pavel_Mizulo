@@ -1,0 +1,11 @@
+class Replacement { 
+    public static void main(String[] args){
+
+        double num=123.456;
+        double a=num%1;
+        double b=Math.round(a*1000);
+        int integerPart=(int)num;
+        int fractionalPart=(int)b;
+        System.out.println(num+" ---> "+fractionalPart+"."+integerPart); 
+    } 
+}
